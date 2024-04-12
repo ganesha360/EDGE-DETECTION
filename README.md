@@ -22,6 +22,8 @@ Using Sobel operator from cv2,detect the edges of the image.
 
 Using Laplacian operator from cv2,detect the edges of the image and Using Canny operator from cv2,detect the edges of the image.
 ## Program 
+## Developed By : GANESH R
+## Reg No : 212222240029
 ```p
 import cv2
 import matplotlib.pyplot as plt
@@ -101,16 +103,22 @@ plt.axis("off")
 plt.show()
 ```
 ## Output:
-### SOBEL EDGE DETECTOR
+## SOBEL EDGE DETECTOR
+## Sobel X axis
+![image](https://github.com/ganesha360/EDGE-DETECTION/assets/120884552/8859fbe0-3e79-4f5c-9c58-e97dfa143242)
 
-![output](./sobel.png)
+## Sobel Y axis
+![image](https://github.com/ganesha360/EDGE-DETECTION/assets/120884552/74af07e4-0ecd-49d9-8092-ff6e4c84aedc)
 
-### LAPLACIAN EDGE DETECTOR
-![output](./laplacian.png)
+## Sobel XY axis
+![image](https://github.com/ganesha360/EDGE-DETECTION/assets/120884552/2b831678-5e27-4e1d-9110-f36c6f25991e)
 
+## LAPLACIAN EDGE DETECTOR
+![image](https://github.com/ganesha360/EDGE-DETECTION/assets/120884552/d65feb97-790a-48b0-93ab-b67e1f463433)
 
-### CANNY EDGE DETECTOR
-![output](./canny.png)
+## CANNY EDGE DETECTOR
+![image](https://github.com/ganesha360/EDGE-DETECTION/assets/120884552/4ef104e0-818b-4550-ae92-521a81dd2fb1)
+
 
 ## Result:
 Thus the edges are detected using Sobel, Laplacian, and Canny edge detectors.
